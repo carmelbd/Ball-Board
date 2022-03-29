@@ -1,0 +1,65 @@
+body {
+    background:linear-gradient(10deg, rgb(70, 70, 70),
+        rgb(46, 46, 46),
+        rgb(21, 19, 19),
+        rgba(5, 5, 5, 0.904),
+        rgba(0, 0, 0, 0.904));
+    ;
+    color: white;
+    margin-left: 400px;
+}
+
+.counter{
+    height: 20px;
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius:40px 80px 20px 80px;
+    text-align: center;
+    background:linear-gradient(10deg, rgb(253, 84, 84),
+    rgb(143, 1, 1),
+    rgb(135, 1, 15),
+    rgba(100, 3, 3, 0.904),
+    rgba(44, 1, 5, 0.904)); ;
+
+}
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.cell img {
+    width: 25px;
+    height: auto
+}
+.floor {
+    background: linear-gradient(10deg, rgb(255, 255, 255),
+        rgb(181, 181, 181),
+        rgb(131, 131, 131),
+        rgba(95, 95, 95, 0.904),
+        rgba(51, 51, 51, 0.904));
+}
+.wall {
+    background: linear-gradient(10deg, rgb(253, 84, 84),
+        rgb(143, 1, 1),
+        rgb(135, 1, 15),
+        rgba(100, 3, 3, 0.904),
+        rgba(44, 1, 5, 0.904));
+}
+.btn {
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 220px;
+    width: 100px;
+    height: 50px;
+    box-shadow:  1px 5px 10px rgba(2, 136, 160, 0.241);
+    border-radius: 100px;
+    border-color: white;
+    border-width: 1px;
+    background: linear-gradient(120deg, rgb(33, 21, 27),
+            rgb(87, 45, 45),
+            rgb(48, 17, 17),
+            rgba(53, 25, 25, 0.904),
+            rgba(41, 7, 7, 0.981));
+}
